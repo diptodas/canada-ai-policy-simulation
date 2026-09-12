@@ -1,4 +1,6 @@
 #other
+.DS_Store
+*.log
 *.pickle
 .llmapi.bin
 *.cache.*
@@ -8,6 +10,7 @@ tests_cache.pickle
 .vscode/
 
 outputs/
+cache/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -134,6 +137,7 @@ celerybeat.pid
 
 # Environments
 .env
+openai.env
 .venv
 env/
 venv/

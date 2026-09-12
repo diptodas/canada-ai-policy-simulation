@@ -1,0 +1,99 @@
+{
+  "title": "Canada demographic sampling inputs",
+  "description": "Aggregate Canadian demographic marginals formatted for transparent weighted sampling.",
+  "source": "Synthesized from https://en.wikipedia.org/wiki/Canada#Demographics with GPT-5.6 Sol",
+  "reference_population": {
+    "label": "2021 Census population",
+    "count": 36990000
+  },
+  "methodology": {
+    "distribution_type": "marginal",
+    "joint_distributions_available": false,
+    "sampling_assumption": "Dimensions are sampled independently because this file contains no cross-tabulations or respondent-level microdata.",
+    "weight_unit": "percent",
+    "caution": "This is a coarse synthetic-sampling input, not Statistics Canada PUMF microdata. Derived residual categories and approximations are identified below."
+  },
+  "dimensions": {
+    "race_ethnicity": {
+      "source_note": "Reported population shares; listed values sum to 100%.",
+      "categories": {
+        "White": 69.8,
+        "Indigenous": 5.0,
+        "South Asian": 7.1,
+        "Chinese": 4.7,
+        "Black": 4.3,
+        "Filipino": 2.6,
+        "Arab": 1.9,
+        "Latin American": 1.6,
+        "Southeast Asian": 1.1,
+        "West Asian": 1.0,
+        "Korean": 0.6,
+        "Japanese": 0.3
+      }
+    },
+    "religious_affiliation": {
+      "source_note": "Reported shares sum to 99.3%; weighted sampling normalizes them automatically.",
+      "categories": {
+        "Christianity": 53.3,
+        "No religion or irreligion": 34.6,
+        "Islam": 4.9,
+        "Hinduism": 2.3,
+        "Sikhism": 2.1,
+        "Buddhism": 1.0,
+        "Judaism": 0.9,
+        "Indigenous spirituality": 0.2
+      }
+    },
+    "education_attainment": {
+      "source_note": "Approximation derived from 89% high-school-or-higher and more than 56% with a college or university credential.",
+      "derived": true,
+      "categories": {
+        "College or university credential": 56.0,
+        "High school or other non-university credential": 33.0,
+        "Below high school completion": 11.0
+      }
+    },
+    "mother_tongue": {
+      "source_note": "English and French shares were reported directly; Other is the residual to 100% and is therefore approximate.",
+      "derived": true,
+      "categories": {
+        "English": 54.0,
+        "French": 19.0,
+        "Other": 27.0
+      }
+    },
+    "urbanicity": {
+      "source_note": "Urban share is reported as more than 80%; this sampler uses 80/20 as an approximation.",
+      "derived": true,
+      "categories": {
+        "Urban": 80.0,
+        "Rural": 20.0
+      }
+    },
+    "household_composition": {
+      "source_note": "Four categories were reported directly; Other is the 8.1% residual required to reach 100%.",
+      "derived": true,
+      "categories": {
+        "Couple with or without children": 51.0,
+        "Single-parent household": 8.7,
+        "Multigenerational household": 2.9,
+        "Single-person household": 29.3,
+        "Other household arrangement": 8.1
+      }
+    },
+    "immigration_status": {
+      "source_note": "Immigrant share reported as 23%; Non-immigrant is the residual.",
+      "derived": true,
+      "categories": {
+        "Immigrant": 23.0,
+        "Non-immigrant": 77.0
+      }
+    }
+  },
+  "context_only": {
+    "official_languages": ["English", "French"],
+    "leading_immigrant_countries_of_origin": ["India", "China", "Philippines"],
+    "most_densely_populated_region": "Quebec City-Windsor Corridor",
+    "share_within_150_km_of_contiguous_us_border_percent": 80.0
+  }
+}

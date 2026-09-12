@@ -1,0 +1,52 @@
+{
+  "title": "Canada's AI strategic landscape",
+  "role": "Shared factual background for the simulation, not a policy announcement or an instruction to support or oppose policy.",
+  "challenges": [
+    {
+      "name": "Low public trust and AI literacy",
+      "context": "Many Canadians have limited AI understanding, training, or confidence. The strategy reports that 24% of Canadians have received AI training.",
+      "signals": ["ai literacy", "ai training", "public trust", "confidence using ai", "understand ai"]
+    },
+    {
+      "name": "Employment disruption",
+      "context": "Workers may need to reskill as jobs change, entry-level roles contract, and some female-dominated sectors face particular exposure.",
+      "signals": ["job loss", "jobs changing", "entry-level jobs", "employment", "workers", "workforce", "reskill", "career"]
+    },
+    {
+      "name": "Privacy, discrimination, and online harms",
+      "context": "Risks include misuse of personal information, algorithmic discrimination, deepfake sexual violence, fraud, misinformation, and threats to democratic institutions.",
+      "signals": ["privacy", "personal information", "discrimination", "bias", "deepfake", "fraud", "misinformation", "election"]
+    },
+    {
+      "name": "Unequal access and disproportionate harms",
+      "context": "Indigenous peoples, racialized communities, and people with disabilities may face distinct barriers or harms, alongside cultural and linguistic representation concerns.",
+      "signals": ["unequal access", "accessibility", "indigenous", "racialized", "disability", "disabled", "language access", "representation", "digital divide"]
+    },
+    {
+      "name": "Business adoption barriers",
+      "context": "Businesses face costs, limited expertise, and uncertainty about useful applications. The strategy reports that 78% of non-adopting firms do not see how AI benefits their goods or services.",
+      "signals": ["business adoption", "businesses", "firms", "small business", "cost of adopting", "expertise", "useful applications", "return on investment"]
+    },
+    {
+      "name": "Dependence on foreign technology",
+      "context": "Reliance on foreign cloud providers, chips, infrastructure, and models raises concerns about control, foreign legal regimes, vendor lock-in, and technological choice.",
+      "signals": ["foreign technology", "foreign providers", "cloud provider", "chips", "vendor lock-in", "technological sovereignty", "domestic technology"]
+    },
+    {
+      "name": "Infrastructure and environmental constraints",
+      "context": "AI expansion requires substantial computing, electricity, and potentially water, while available power can constrain infrastructure growth.",
+      "signals": ["data centre", "data center", "computing power", "electricity", "energy use", "water use", "environment", "emissions"]
+    },
+    {
+      "name": "Fragmented and inaccessible data",
+      "context": "Useful datasets remain isolated across institutions and require common standards, secure infrastructure, and privacy protections.",
+      "signals": ["fragmented data", "data access", "datasets", "data sharing", "common standards", "secure infrastructure", "data silos"]
+    },
+    {
+      "name": "Talent retention and commercialization",
+      "context": "Canada faces competition for researchers, limited growth capital, difficulties translating research into products, and relocation of firms abroad.",
+      "signals": ["talent retention", "researchers", "commercialization", "commercialisation", "growth capital", "investment capital", "companies leaving", "firms relocating"]
+    }
+  ],
+  "interpretation_rule": "Treat these as broad conditions identified by the strategy. Do not invent specific incidents, personal experiences, or certainty about how any individual is affected."
+}

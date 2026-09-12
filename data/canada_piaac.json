@@ -1,0 +1,106 @@
+{
+  "title": "Canadian adult skills and learning characteristics",
+  "description": "Survey-weighted marginal distributions derived from 11,697 Canadian respondents in PIAAC Cycle 2.",
+  "reference_population": {
+    "label": "Adults aged 16-65 represented by the Canadian PIAAC Cycle 2 public-use file",
+    "respondent_count": 11697
+  },
+  "methodology": {
+    "distribution_type": "survey-weighted marginals",
+    "joint_distributions_available": false,
+    "sampling_assumption": "Using these dimensions independently produces synthetic combinations and does not preserve respondent-level relationships. Sampling respondent records is preferred when those relationships matter.",
+    "weight_unit": "percent",
+    "skill_estimation": "Skill-level shares average estimates across all 10 plausible values for each cognitive domain.",
+    "caution": "Self-assessed performance is a confidence-related proxy, not a direct measure of general confidence, AI confidence, or AI literacy."
+  },
+  "dimensions": {
+    "literacy_proficiency": {
+      "description": "Ability to access, understand, evaluate, and use written texts.",
+      "categories": {
+        "Below Level 1": 5.92,
+        "Level 1": 13.353,
+        "Level 2": 29.681,
+        "Level 3": 37.147,
+        "Level 4": 12.776,
+        "Level 5": 1.123
+      }
+    },
+    "numeracy_proficiency": {
+      "description": "Ability to access, use, and reason with mathematical information.",
+      "categories": {
+        "Below Level 1": 5.536,
+        "Level 1": 14.558,
+        "Level 2": 30.428,
+        "Level 3": 34.448,
+        "Level 4": 13.47,
+        "Level 5": 1.56
+      }
+    },
+    "adaptive_problem_solving_proficiency": {
+      "description": "Ability to solve problems in changing and dynamic situations.",
+      "categories": {
+        "Below Level 1": 5.247,
+        "Level 1": 16.803,
+        "Level 2": 38.931,
+        "Level 3": 33.385,
+        "Level 4": 5.634
+      }
+    },
+    "self_assessed_performance": {
+      "description": "Respondents' estimate of the percentage of assessment questions they answered correctly; used only as a confidence-related proxy.",
+      "categories": {
+        "20% or less": 3.876,
+        "21-40%": 7.29,
+        "41-60%": 19.68,
+        "61-80%": 34.641,
+        "81-100%": 34.513
+      }
+    },
+    "ict_use_at_home": {
+      "description": "Ordered index of ICT-skill use at home among respondents with valid data.",
+      "categories": {
+        "Category 1 - lowest": 10.506,
+        "Category 2": 14.499,
+        "Category 3": 18.034,
+        "Category 4": 22.068,
+        "Category 5 - highest": 34.893
+      }
+    },
+    "ict_use_at_work": {
+      "description": "Ordered index of ICT-skill use at work among respondents on an applicable work pathway.",
+      "categories": {
+        "Category 1 - lowest": 17.185,
+        "Category 2": 16.706,
+        "Category 3": 15.649,
+        "Category 4": 13.712,
+        "Category 5 - highest": 36.748
+      }
+    },
+    "curiosity": {
+      "description": "Cycle 2 curiosity-facet score grouped relative to its Canadian weighted standard-score distribution.",
+      "derived": true,
+      "categories": {
+        "Lower - below -0.5 SD": 31.974,
+        "Middle - -0.5 to 0.5 SD": 47.292,
+        "Higher - above 0.5 SD": 20.734
+      }
+    },
+    "learning_at_work": {
+      "description": "Ordered index of learning practices at work among respondents on an applicable work pathway.",
+      "categories": {
+        "Category 1 - lowest": 10.41,
+        "Category 2": 17.826,
+        "Category 3": 22.381,
+        "Category 4": 23.106,
+        "Category 5 - highest": 26.277
+      }
+    },
+    "recent_nonformal_education": {
+      "description": "Participation in non-formal education during the previous 12 months among respondents with valid data.",
+      "categories": {
+        "Did not participate": 43.969,
+        "Participated": 56.031
+      }
+    }
+  }
+}
